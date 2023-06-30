@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Configurations>Debug;Release;Staging</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Managemail.Common\Managemail.Common.csproj" />
+    <ProjectReference Include="..\Managemail.Model.Common\Managemail.Model.Common.csproj" />
+    <ProjectReference Include="..\Managemail.Model\Managemail.Model.csproj" />
+    <ProjectReference Include="..\Managemail.Service.Common\Managemail.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>
